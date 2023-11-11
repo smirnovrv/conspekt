@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d6c0a7f-e2f9-4b29-93fa-04585226b704">
+  <producedTypes>
+    <objectType typeId="e2e5ac9b-2c07-4476-ae40-04c6ca311403" valueTypeId="38df5312-e15a-4ef9-afda-703d062026d8"/>
+    <refType typeId="2d7a8285-0fd5-4a92-9fa3-a8779bcc5db5" valueTypeId="9fd60ff4-2e45-488a-9e6f-8e53655c21ad"/>
+    <selectionType typeId="d1291682-1937-4d9a-8d7c-61ddc586448c" valueTypeId="8bc3fd29-babd-4381-888f-29ebcc598396"/>
+    <listType typeId="71fc8219-5a86-4696-b116-25541c7acc89" valueTypeId="e5f42b57-be24-420c-810e-8cdcf6822caa"/>
+    <managerType typeId="f43daf5d-c561-4326-9fbf-f11edc568a1c" valueTypeId="2c2308f9-0f50-43f4-b3cd-9d20b5ec6430"/>
+  </producedTypes>
+  <name>Ленты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ленты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ленты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ленты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
