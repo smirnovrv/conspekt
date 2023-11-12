@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d6c0a7f-e2f9-4b29-93fa-04585226b704">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d6c0a7f-e2f9-4b29-93fa-04585226b704">
   <producedTypes>
     <objectType typeId="e2e5ac9b-2c07-4476-ae40-04c6ca311403" valueTypeId="38df5312-e15a-4ef9-afda-703d062026d8"/>
     <refType typeId="2d7a8285-0fd5-4a92-9fa3-a8779bcc5db5" valueTypeId="9fd60ff4-2e45-488a-9e6f-8e53655c21ad"/>
@@ -30,4 +30,39 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Ленты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e6a61e67-b5ef-477d-bb3b-814ba3b40302">
+    <name>ОсновнойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="45c49ed1-5be6-4aca-86a2-168d59588ca8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3e07b53-1da8-4755-88b5-b69e3ac48c50">
+    <name>ФормаВводаТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода текста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
