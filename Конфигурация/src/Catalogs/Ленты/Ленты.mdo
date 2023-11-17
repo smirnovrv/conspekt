@@ -47,6 +47,49 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="556eeb2c-36ce-405f-8b6d-1d62aa9cbc7c">
+    <producedTypes>
+      <objectType typeId="e71fe628-e0f9-465e-a70a-933f89dff2fe" valueTypeId="7c7f3201-927d-4d4c-8ad6-97e7bcc01bb4"/>
+      <rowType typeId="eaafa821-dd78-4c15-8ad6-1dd776742b5c" valueTypeId="dacb7d56-9bb8-41e6-a70f-f489eaf14516"/>
+    </producedTypes>
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <attributes uuid="080a1605-e1c6-41d1-83d3-830cc86aaa58">
+      <name>Коментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da45edd9-c1f5-4e6c-ae8a-67c192c9f9a6">
+      <name>Картинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картинка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="45c49ed1-5be6-4aca-86a2-168d59588ca8">
     <name>ФормаЭлемента</name>
     <synonym>
