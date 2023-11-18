@@ -39,4 +39,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Ленты</catalogs>
+  <catalogs>Catalog.Тэги</catalogs>
 </mdclass:Configuration>
