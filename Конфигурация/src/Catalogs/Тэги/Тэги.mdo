@@ -34,6 +34,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Тэги.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="9413a531-d3f1-4529-a54f-c56b9c04ab74">
     <name>Описание</name>
     <synonym>
@@ -43,7 +44,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>50</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -67,4 +68,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="093ad5cf-2f6c-4cea-bef8-070ed4e32206">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

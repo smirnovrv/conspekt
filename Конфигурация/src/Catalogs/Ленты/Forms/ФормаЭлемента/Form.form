@@ -261,7 +261,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Комментарии.Коментарий</segments>
+          <segments>Объект.Комментарии.Комментарий</segments>
         </dataPath>
         <extendedTooltip>
           <name>КомментарииКоментарийРасширеннаяПодсказка</name>
@@ -644,16 +644,16 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаДобавитьФайл</name>
-      <id>41</id>
+      <name>ФормаДобавитьФайлНовыйВариант</name>
+      <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаДобавитьФайлРасширеннаяПодсказка</name>
-        <id>42</id>
+        <name>ФормаДобавитьФайлНовыйВариантРасширеннаяПодсказка</name>
+        <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -666,7 +666,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ДобавитьФайл</commandName>
+      <commandName>Form.Command.ДобавитьФайлНовыйВариант</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -748,6 +748,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДобавитьФайл</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьФайлНовыйВариант</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить файл (новый)</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьФайлНовыйВариант</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
