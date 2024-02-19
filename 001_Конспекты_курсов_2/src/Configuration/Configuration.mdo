@@ -38,7 +38,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <constants>Constant.Константа7</constants>
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
