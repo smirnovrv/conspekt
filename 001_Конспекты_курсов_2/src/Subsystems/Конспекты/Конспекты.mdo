@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd74b80d-135a-49c8-98a1-a01162969c74">
+  <name>Конспекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конспекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Ленты</content>
+  <content>Catalog.Тэги</content>
+  <content>Catalog.ЛентыФайлы</content>
+</mdclass:Subsystem>
