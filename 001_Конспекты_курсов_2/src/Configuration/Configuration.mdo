@@ -38,9 +38,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Курсы</subsystems>
   <subsystems>Subsystem.Конспекты</subsystems>
+  <subsystems>Subsystem.БазаЗнаний</subsystems>
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
+  <catalogs>Catalog.СтатьиБазыЗнаний</catalogs>
 </mdclass:Configuration>
