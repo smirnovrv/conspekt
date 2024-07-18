@@ -39,7 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Конспекты</subsystems>
-  <subsystems>Subsystem.БазаЗнаний</subsystems>
+  <subsystems>Subsystem.БазаЗнаний_1</subsystems>
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>

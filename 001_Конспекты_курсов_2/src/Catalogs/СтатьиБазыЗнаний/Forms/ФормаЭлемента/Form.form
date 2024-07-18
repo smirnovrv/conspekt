@@ -106,6 +106,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКоманда1</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>H1-H4</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

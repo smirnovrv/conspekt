@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9884b2fc-f85b-4544-bc72-c3d87c04d1c5">
-  <name>БазаЗнаний</name>
+  <name>БазаЗнаний_1</name>
   <synonym>
     <key>ru</key>
-    <value>База знаний</value>
+    <value>БЗ (1)</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
