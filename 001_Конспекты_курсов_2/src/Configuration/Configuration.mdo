@@ -40,6 +40,10 @@
   </languages>
   <subsystems>Subsystem.Конспекты</subsystems>
   <subsystems>Subsystem.БазаЗнаний_1</subsystems>
+  <commonPictures>CommonPicture.ФорматированиеШрифтЖирный</commonPictures>
+  <commonPictures>CommonPicture.ФорматированиеШрифтЗачеркнутый</commonPictures>
+  <commonPictures>CommonPicture.ФорматированиеШрифтКурсив</commonPictures>
+  <commonPictures>CommonPicture.ФорматированиеШрифтПодчеркнутый</commonPictures>
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>

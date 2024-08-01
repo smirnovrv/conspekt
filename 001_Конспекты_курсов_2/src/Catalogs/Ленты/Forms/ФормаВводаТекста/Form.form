@@ -406,23 +406,6 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>КомандаЖирный</name>
-    <title>
-      <key>ru</key>
-      <value>Ж</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаЖирный</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>КомандаРедактировать</name>
     <title>
       <key>ru</key>

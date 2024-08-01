@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="114e34a0-e921-4c63-bde7-c7cbb2ae0cec">
+  <name>ФорматированиеШрифтЖирный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматирование шрифт жирный</value>
+  </synonym>
+</mdclass:CommonPicture>
