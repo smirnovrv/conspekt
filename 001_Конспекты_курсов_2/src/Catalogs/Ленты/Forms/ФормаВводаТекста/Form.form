@@ -256,16 +256,16 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаКомандаЖирный</name>
-      <id>21</id>
+      <name>ФормаКомандаРедактировать</name>
+      <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаКомандаЖирныйРасширеннаяПодсказка</name>
-        <id>22</id>
+        <name>ФормаКомандаРедактироватьРасширеннаяПодсказка</name>
+        <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -278,7 +278,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.КомандаЖирный</commandName>
+      <commandName>Form.Command.КомандаРедактировать</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -418,6 +418,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаЖирный</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаРедактировать</name>
+    <title>
+      <key>ru</key>
+      <value>Редактировать</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаРедактировать</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
