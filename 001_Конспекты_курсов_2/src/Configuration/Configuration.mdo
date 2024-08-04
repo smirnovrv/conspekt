@@ -44,6 +44,7 @@
   <commonPictures>CommonPicture.ФорматированиеШрифтЗачеркнутый</commonPictures>
   <commonPictures>CommonPicture.ФорматированиеШрифтКурсив</commonPictures>
   <commonPictures>CommonPicture.ФорматированиеШрифтПодчеркнутый</commonPictures>
+  <commonModules>CommonModule.ОбщийHTMLКлиент</commonModules>
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
