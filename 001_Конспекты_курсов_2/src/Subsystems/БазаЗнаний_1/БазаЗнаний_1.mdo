@@ -6,6 +6,5 @@
     <value>БЗ (1)</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.СтатьиБазыЗнаний</content>
 </mdclass:Subsystem>
