@@ -12,7 +12,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Тег</segments>
+        <segments>Тэг</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТегРасширеннаяПодсказка</name>
@@ -482,10 +482,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Тег</name>
+    <name>Тэг</name>
     <title>
       <key>ru</key>
-      <value>Тег</value>
+      <value>Тэг</value>
     </title>
     <id>2</id>
     <valueType>
@@ -547,6 +547,23 @@
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоВставка</name>
+    <title>
+      <key>ru</key>
+      <value>Это вставка</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
