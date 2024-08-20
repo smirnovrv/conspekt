@@ -257,7 +257,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>ФормаКомандаЖирный</name>
-      <id>25</id>
+      <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -265,7 +265,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ФормаКомандаЖирныйРасширеннаяПодсказка</name>
-        <id>26</id>
+        <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -279,7 +279,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.КомандаЖирный</commandName>
-      <representation>Auto</representation>
+      <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -309,7 +309,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.КомандаКурсив</commandName>
-      <representation>Auto</representation>
+      <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -339,7 +339,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.КомандаПодчеркнутый</commandName>
-      <representation>Auto</representation>
+      <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -429,6 +429,70 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.КомандаЛиния</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаКомандаЗнакМеньше</name>
+      <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаКомандаЗнакМеньшеРасширеннаяПодсказка</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.КомандаЗнакМеньше</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаКомандаЗнакБольше</name>
+      <id>45</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаКомандаЗнакБольшеРасширеннаяПодсказка</name>
+        <id>46</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.КомандаЗнакБольше</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -591,10 +655,6 @@
   </formCommands>
   <formCommands>
     <name>КомандаЖирный</name>
-    <title>
-      <key>ru</key>
-      <value>Ж</value>
-    </title>
     <id>4</id>
     <use>
       <common>true</common>
@@ -607,6 +667,7 @@
         <name>КомандаЖирный</name>
       </handler>
     </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -651,10 +712,6 @@
   </formCommands>
   <formCommands>
     <name>КомандаПодчеркнутый</name>
-    <title>
-      <key>ru</key>
-      <value>Команда подчеркнутый</value>
-    </title>
     <id>7</id>
     <use>
       <common>true</common>
@@ -667,6 +724,7 @@
         <name>КомандаПодчеркнутый</name>
       </handler>
     </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -699,6 +757,57 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаЛиния</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаКопирайт</name>
+    <title>
+      <key>ru</key>
+      <value>@</value>
+    </title>
+    <id>11</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаКопирайт</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаЗнакМеньше</name>
+    <title>
+      <key>ru</key>
+      <value>Команда знак меньше</value>
+    </title>
+    <id>12</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаЗнакМеньше</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаЗнакБольше</name>
+    <title>
+      <key>ru</key>
+      <value>></value>
+    </title>
+    <id>13</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаЗнакБольше</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
