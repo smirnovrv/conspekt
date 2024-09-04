@@ -831,6 +831,36 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаДобавитьНумерованныйСписок</name>
+      <id>58</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаДобавитьНумерованныйСписокРасширеннаяПодсказка</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ДобавитьНумерованныйСписок</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -928,14 +958,18 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Команда1</name>
-    <id>4</id>
+    <name>ДобавитьНумерованныйСписок</name>
+    <title>
+      <key>ru</key>
+      <value>1.</value>
+    </title>
+    <id>5</id>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Команда1</name>
+        <name>ДобавитьНумерованныйСписок</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
