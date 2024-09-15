@@ -954,23 +954,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ДобавитьФайл</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить файл</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ДобавитьФайл</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ДобавитьФайлНовыйВариант</name>
     <title>
       <key>ru</key>
