@@ -32,6 +32,78 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ddcd3f6b-6ae1-4b68-8d58-1700391a367e">
+      <name>p</name>
+      <description>p</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e3ec4576-53c7-400d-a2af-eeb1cc268eee">
+      <name>img</name>
+      <description>img</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6a416c63-887d-4c3d-9e69-c8790fda308b">
+      <name>a</name>
+      <description>a</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8791181e-31d8-47dc-8c0c-ea6934d3666b">
+      <name>H1</name>
+      <description>H1</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="89340293-2130-4426-8244-358dad80d19f">
+      <name>H2</name>
+      <description>H2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="c87bcf8e-4215-403a-a10d-9af882135a52">
+      <name>H3</name>
+      <description>H3</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="1799ae8e-eeda-4a12-b5a8-84d398d981f2">
+      <name>H4</name>
+      <description>H4</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="1eb766bd-e90a-4aeb-9884-59ebc165b0c7">
+      <name>H5</name>
+      <description>H5</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="a282b427-e625-40f6-87a3-2d1c8ac45a2d">
+      <name>H6</name>
+      <description>H6</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="ced0d23c-d6e3-438d-9ce6-e12502a5629d">
+      <name>li</name>
+      <description>li</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Тэги.Form.ФормаЭлемента</defaultObjectForm>
