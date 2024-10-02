@@ -186,11 +186,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="14b16eb6-c5af-4852-b093-8cf50d3add48">
-    <name>Макет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Макет</value>
-    </synonym>
-  </templates>
 </mdclass:Catalog>
