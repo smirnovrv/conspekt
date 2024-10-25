@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d6c0a7f-e2f9-4b29-93fa-04585226b704">
+  <producedTypes>
+    <objectType typeId="e2e5ac9b-2c07-4476-ae40-04c6ca311403" valueTypeId="38df5312-e15a-4ef9-afda-703d062026d8"/>
+    <refType typeId="2d7a8285-0fd5-4a92-9fa3-a8779bcc5db5" valueTypeId="9fd60ff4-2e45-488a-9e6f-8e53655c21ad"/>
+    <selectionType typeId="d1291682-1937-4d9a-8d7c-61ddc586448c" valueTypeId="8bc3fd29-babd-4381-888f-29ebcc598396"/>
+    <listType typeId="71fc8219-5a86-4696-b116-25541c7acc89" valueTypeId="e5f42b57-be24-420c-810e-8cdcf6822caa"/>
+    <managerType typeId="f43daf5d-c561-4326-9fbf-f11edc568a1c" valueTypeId="2c2308f9-0f50-43f4-b3cd-9d20b5ec6430"/>
+  </producedTypes>
+  <name>Ленты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ленты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ленты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ленты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ленты</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Ленты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Ленты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e6a61e67-b5ef-477d-bb3b-814ba3b40302">
+    <name>ОсновнойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="556eeb2c-36ce-405f-8b6d-1d62aa9cbc7c">
+    <producedTypes>
+      <objectType typeId="e71fe628-e0f9-465e-a70a-933f89dff2fe" valueTypeId="7c7f3201-927d-4d4c-8ad6-97e7bcc01bb4"/>
+      <rowType typeId="eaafa821-dd78-4c15-8ad6-1dd776742b5c" valueTypeId="dacb7d56-9bb8-41e6-a70f-f489eaf14516"/>
+    </producedTypes>
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <attributes uuid="080a1605-e1c6-41d1-83d3-830cc86aaa58">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da45edd9-c1f5-4e6c-ae8a-67c192c9f9a6">
+      <name>Картинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картинка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЛентыФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a0788efa-e234-4b12-bd74-8e104c322d67">
+      <name>Тэг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тэг</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Тэги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="53282725-8c8d-4e83-af0f-4cc665c03619">
+      <name>Ширина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ширина</value>
+      </synonym>
+      <comment>width</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a3ee8eb-697a-4455-9af5-e8abb5983bd1">
+      <name>Высота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Высота</value>
+      </synonym>
+      <comment>height</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="166476eb-bdb5-4213-b06c-89ec239d7df2">
+      <name>Якорь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Якорь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="45c49ed1-5be6-4aca-86a2-168d59588ca8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3e07b53-1da8-4755-88b5-b69e3ac48c50">
+    <name>ФормаРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56304468-0f9a-4812-b61c-c2a56d955079">
+    <name>ФормаВводаТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода текста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="833936bb-9772-4801-b150-7ddeb7dac1c6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

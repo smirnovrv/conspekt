@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3c47c5b-0761-42ca-bb07-25dcf77dd0c8">
+  <producedTypes>
+    <objectType typeId="d309826c-631e-4c1e-813b-63c07c5b9413" valueTypeId="61a8bff0-f69d-4d1c-9d8c-9f08f3eab5dd"/>
+    <refType typeId="242fbf52-8f59-4137-872a-06e3fa30bd2c" valueTypeId="d01023dc-8418-4048-9c1d-ccefc24e2f89"/>
+    <selectionType typeId="b28077cd-6759-43e8-87dd-d1ff7e4642d6" valueTypeId="725990e9-2bc6-4650-9751-1701a28029b2"/>
+    <listType typeId="f0e86e0c-9042-4318-b7ac-f0fdba931027" valueTypeId="8432c73c-7084-406e-90d9-55de54c3c6c6"/>
+    <managerType typeId="a62e2849-6cd9-4142-a5e5-8d67ebc4297b" valueTypeId="b6b60ac1-99ce-4829-bd58-afdf523fafa5"/>
+  </producedTypes>
+  <name>ЛентыФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ленты файлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛентыФайлы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛентыФайлы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="29ce1dc8-ae26-477a-8a52-acdb9f8684d3">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ленты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb9d62c3-c70d-4d7f-a3f4-ee6a71bcaa92">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e47e66a-115d-4fdf-a06e-b9ef0ba2763c">
+    <name>ФайлХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

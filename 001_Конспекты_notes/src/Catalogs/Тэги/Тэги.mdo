@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f856906a-9223-4653-99b3-2388cde4ba08">
+  <producedTypes>
+    <objectType typeId="00c5643e-f257-4ddb-be26-997df87f41e3" valueTypeId="3314190a-b059-4c91-8d19-2d255b4e81f0"/>
+    <refType typeId="f960cb28-25cb-4b56-8f38-04dedcf680f0" valueTypeId="93b7363b-1885-4481-bcb5-0736cf1fc453"/>
+    <selectionType typeId="b27df6ff-2c91-4376-ab25-40abc93742a6" valueTypeId="daabd255-eb9e-438b-ba79-833b89c9fb9a"/>
+    <listType typeId="f6557249-8e48-4c28-9ba5-c22a689b3030" valueTypeId="9f2556bb-a51f-4ac7-8165-bad0f4e617ad"/>
+    <managerType typeId="8f06ab0f-a034-4be6-bf5b-f80b1fe27dea" valueTypeId="971711f4-3271-4b83-886e-c77e42b33a3e"/>
+  </producedTypes>
+  <name>Тэги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тэги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тэги.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Тэги.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тэги HTML</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ddcd3f6b-6ae1-4b68-8d58-1700391a367e">
+      <name>p</name>
+      <description>p</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e3ec4576-53c7-400d-a2af-eeb1cc268eee">
+      <name>img</name>
+      <description>img</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6a416c63-887d-4c3d-9e69-c8790fda308b">
+      <name>a</name>
+      <description>a</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8791181e-31d8-47dc-8c0c-ea6934d3666b">
+      <name>H1</name>
+      <description>H1</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="89340293-2130-4426-8244-358dad80d19f">
+      <name>H2</name>
+      <description>H2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="c87bcf8e-4215-403a-a10d-9af882135a52">
+      <name>H3</name>
+      <description>H3</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="1799ae8e-eeda-4a12-b5a8-84d398d981f2">
+      <name>H4</name>
+      <description>H4</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="1eb766bd-e90a-4aeb-9884-59ebc165b0c7">
+      <name>H5</name>
+      <description>H5</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="a282b427-e625-40f6-87a3-2d1c8ac45a2d">
+      <name>H6</name>
+      <description>H6</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="ced0d23c-d6e3-438d-9ce6-e12502a5629d">
+      <name>li</name>
+      <description>li</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Тэги.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9413a531-d3f1-4529-a54f-c56b9c04ab74">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83b661f4-c86f-49a6-b38b-9ad17d2173f5">
+    <name>Одиночный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одиночный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="093ad5cf-2f6c-4cea-bef8-070ed4e32206">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
