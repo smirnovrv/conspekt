@@ -46,6 +46,7 @@
   <commonPictures>CommonPicture.НумерованныйСписок</commonPictures>
   <commonPictures>CommonPicture.МаркированныйСписок</commonPictures>
   <commonModules>CommonModule.ОбщийHTMLКлиент</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
