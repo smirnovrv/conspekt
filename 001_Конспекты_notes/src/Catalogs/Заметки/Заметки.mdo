@@ -7,21 +7,21 @@
     <listType typeId="71fc8219-5a86-4696-b116-25541c7acc89" valueTypeId="e5f42b57-be24-420c-810e-8cdcf6822caa"/>
     <managerType typeId="f43daf5d-c561-4326-9fbf-f11edc568a1c" valueTypeId="2c2308f9-0f50-43f4-b3cd-9d20b5ec6430"/>
   </producedTypes>
-  <name>Ленты</name>
+  <name>Заметки</name>
   <synonym>
     <key>ru</key>
-    <value>Ленты</value>
+    <value>Заметки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Ленты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Ленты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Заметки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Заметки.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Ленты</value>
+    <value>Заметки</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -34,8 +34,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Ленты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Ленты.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Catalog.Заметки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Заметки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="e6a61e67-b5ef-477d-bb3b-814ba3b40302">
     <name>ОсновнойТекст</name>
     <synonym>
@@ -84,7 +84,7 @@
         <value>Картинка</value>
       </synonym>
       <type>
-        <types>CatalogRef.ЛентыФайлы</types>
+        <types>CatalogRef.ЗаметкиФайлы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

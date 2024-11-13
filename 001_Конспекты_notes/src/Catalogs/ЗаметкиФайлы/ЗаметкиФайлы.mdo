@@ -7,14 +7,14 @@
     <listType typeId="f0e86e0c-9042-4318-b7ac-f0fdba931027" valueTypeId="8432c73c-7084-406e-90d9-55de54c3c6c6"/>
     <managerType typeId="a62e2849-6cd9-4142-a5e5-8d67ebc4297b" valueTypeId="b6b60ac1-99ce-4829-bd58-afdf523fafa5"/>
   </producedTypes>
-  <name>ЛентыФайлы</name>
+  <name>ЗаметкиФайлы</name>
   <synonym>
     <key>ru</key>
-    <value>Ленты файлы</value>
+    <value>Заметки файлы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ЛентыФайлы.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ЛентыФайлы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗаметкиФайлы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЗаметкиФайлы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -37,7 +37,7 @@
       <value>Владелец файла</value>
     </synonym>
     <type>
-      <types>CatalogRef.Ленты</types>
+      <types>CatalogRef.Заметки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

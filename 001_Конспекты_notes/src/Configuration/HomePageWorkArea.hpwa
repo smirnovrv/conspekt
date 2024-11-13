@@ -3,7 +3,7 @@
   <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
   <columns>
     <items>
-      <form>Catalog.Ленты.Form.ФормаСписка</form>
+      <form>Catalog.Заметки.Form.ФормаСписка</form>
       <height>10</height>
       <visibility>
         <common>true</common>

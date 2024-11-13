@@ -6,6 +6,6 @@
     <value>Конспекты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Catalog.Ленты</content>
+  <content>Catalog.Заметки</content>
   <content>Catalog.Тэги</content>
 </mdclass:Subsystem>

@@ -925,7 +925,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Ленты</types>
+      <types>CatalogObject.Заметки</types>
     </valueType>
     <view>
       <common>true</common>
