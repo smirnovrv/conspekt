@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e41314c6-e48b-4b30-8a6b-b186e7a38e29">
+  <producedTypes>
+    <objectType typeId="03b739fc-0d63-4697-9edb-d0eadf4ea783" valueTypeId="9cc9d7f7-453e-4d77-b8c0-a263b4c6c794"/>
+    <refType typeId="bf463693-948b-4752-b26b-aa3df0d2d7fe" valueTypeId="67b16b24-53b2-4225-a426-fdd0331fef99"/>
+    <selectionType typeId="8be75823-4c54-42de-813c-d1863fac3ff3" valueTypeId="4b3371b0-7ecd-4ff3-8afa-c317a81b1b37"/>
+    <listType typeId="2307c451-32bd-4deb-af52-8127f9b3a31a" valueTypeId="8a0a67e3-3ee2-47c8-bc48-3a891ed3c057"/>
+    <managerType typeId="2ed3fcd6-715a-46bb-9564-06832792460c" valueTypeId="9b70b5e8-c530-40f1-88a8-bc783c70e2f9"/>
+  </producedTypes>
+  <name>Лекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лекции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Лекции.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Лекции.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

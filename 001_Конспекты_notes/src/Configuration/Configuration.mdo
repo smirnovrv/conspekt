@@ -50,4 +50,6 @@
   <catalogs>Catalog.Ленты</catalogs>
   <catalogs>Catalog.ЛентыФайлы</catalogs>
   <catalogs>Catalog.Тэги</catalogs>
+  <catalogs>Catalog.Темы</catalogs>
+  <catalogs>Catalog.Лекции</catalogs>
 </mdclass:Configuration>
