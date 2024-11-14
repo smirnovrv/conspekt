@@ -52,6 +52,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d2d1224f-8798-4e22-8451-40308e8bcfca">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Темы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d4e641a-c028-4ecf-906d-b4fcaa5332e0">
+    <name>Лекция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лекции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="556eeb2c-36ce-405f-8b6d-1d62aa9cbc7c">
     <producedTypes>
       <objectType typeId="e71fe628-e0f9-465e-a70a-933f89dff2fe" valueTypeId="7c7f3201-927d-4d4c-8ad6-97e7bcc01bb4"/>
