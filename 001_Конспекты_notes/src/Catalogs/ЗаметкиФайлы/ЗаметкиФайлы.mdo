@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗаметкиФайлы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="29ce1dc8-ae26-477a-8a52-acdb9f8684d3">
     <name>ВладелецФайла</name>
     <synonym>
@@ -76,4 +77,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="71c20f21-d7b8-4678-8e03-fd9275fc7278">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
