@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ИП Смирнов Роман Викторович</vendor>
-  <version>1.1.53</version>
+  <version>1.1.54</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
